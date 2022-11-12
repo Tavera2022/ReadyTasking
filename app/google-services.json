@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173011721335",
+    "project_id": "readytasking",
+    "storage_bucket": "readytasking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173011721335:android:b434b859ef59ae05e1ba72",
+        "android_client_info": {
+          "package_name": "com.example.readytasking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173011721335-e2ltqcto825td3ta2sjpfmvi8fp283qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_JLIkJI-NC47K-lwI32AO0p5-T6CTzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173011721335-e2ltqcto825td3ta2sjpfmvi8fp283qu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

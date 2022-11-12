@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Menu"
+        android:icon="@drawable/home">
+
+    </item>
+    <item
+        android:id="@+id/medigeneral"
+        android:title="MedicoGeneral"
+        android:icon="@drawable/medigeneral1"
+          >
+
+    </item>
+    <item
+        android:id="@+id/cuenta"
+        android:title="Cuenta Usuario"
+        android:icon="@drawable/usuario"
+        >
+
+    </item>
+    <item
+        android:id="@+id/consultaragenda"
+        android:title="Consultar Agenda"
+        android:icon="@drawable/consultaragenda"
+        >
+
+    </item>
+    <item
+        android:id="@+id/ayudarapida"
+        android:title="Ayuda"
+        android:icon="@drawable/help"
+        >
+
+    </item>
+
+
+
+</menu>

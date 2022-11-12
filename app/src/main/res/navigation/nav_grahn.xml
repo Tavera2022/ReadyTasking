@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grahn"
+    app:startDestination="@id/menuFragment2">
+    <fragment
+        android:id="@+id/menuFragment2"
+        android:name="com.example.readytasking.viewmodel.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment2_to_medicinaGeneralFragment"
+            app:destination="@id/medicinaGeneralFragment" />
+        <action
+            android:id="@+id/action_menuFragment2_to_especialistasFragment"
+            app:destination="@id/especialistasFragment" />
+        <action
+            android:id="@+id/action_menuFragment2_to_agendarCitaFragment"
+            app:destination="@id/agendarCitaFragment" />
+        <action
+            android:id="@+id/action_menuFragment2_to_mapaRutaFragment"
+            app:destination="@id/mapaRutaFragment" />
+        <action
+            android:id="@+id/action_menuFragment2_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_menuFragment2_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicinaGeneralFragment"
+        android:name="com.example.readytasking.MedicinaGeneralFragment"
+        android:label="fragment_medicina_general"
+        tools:layout="@layout/fragment_medicina_general" >
+        <action
+            android:id="@+id/action_medicinaGeneralFragment_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+        <action
+            android:id="@+id/action_medicinaGeneralFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_medicinaGeneralFragment_to_agendarCitaFragment"
+            app:destination="@id/agendarCitaFragment" />
+        <action
+            android:id="@+id/action_medicinaGeneralFragment_to_especialistasFragment"
+            app:destination="@id/especialistasFragment" />
+        <action
+            android:id="@+id/action_medicinaGeneralFragment_to_mapaRutaFragment"
+            app:destination="@id/mapaRutaFragment" />
+        <action
+            android:id="@+id/action_medicinaGeneralFragment_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/especialistasFragment"
+        android:name="com.example.readytasking.EspecialistasFragment"
+        android:label="fragment_especialistas"
+        tools:layout="@layout/fragment_especialistas" >
+        <action
+            android:id="@+id/action_especialistasFragment_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+        <action
+            android:id="@+id/action_especialistasFragment_to_medicinaGeneralFragment"
+            app:destination="@id/medicinaGeneralFragment" />
+        <action
+            android:id="@+id/action_especialistasFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_especialistasFragment_to_agendarCitaFragment"
+            app:destination="@id/agendarCitaFragment" />
+        <action
+            android:id="@+id/action_especialistasFragment_to_mapaRutaFragment"
+            app:destination="@id/mapaRutaFragment" />
+        <action
+            android:id="@+id/action_especialistasFragment_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agendarCitaFragment"
+        android:name="com.example.readytasking.AgendarCitaFragment"
+        android:label="fragment_agendar_cita"
+        tools:layout="@layout/fragment_agendar_cita" >
+        <action
+            android:id="@+id/action_agendarCitaFragment_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+        <action
+            android:id="@+id/action_agendarCitaFragment_to_medicinaGeneralFragment"
+            app:destination="@id/medicinaGeneralFragment" />
+        <action
+            android:id="@+id/action_agendarCitaFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_agendarCitaFragment_to_especialistasFragment"
+            app:destination="@id/especialistasFragment" />
+        <action
+            android:id="@+id/action_agendarCitaFragment_to_mapaRutaFragment"
+            app:destination="@id/mapaRutaFragment" />
+        <action
+            android:id="@+id/action_agendarCitaFragment_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapaRutaFragment"
+        android:name="com.example.readytasking.MapaRutaFragment"
+        android:label="fragment_mapa_ruta"
+        tools:layout="@layout/fragment_mapa_ruta" >
+        <action
+            android:id="@+id/action_mapaRutaFragment_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+        <action
+            android:id="@+id/action_mapaRutaFragment_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+        <action
+            android:id="@+id/action_mapaRutaFragment_to_medicinaGeneralFragment"
+            app:destination="@id/medicinaGeneralFragment" />
+        <action
+            android:id="@+id/action_mapaRutaFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_mapaRutaFragment_to_agendarCitaFragment"
+            app:destination="@id/agendarCitaFragment" />
+        <action
+            android:id="@+id/action_mapaRutaFragment_to_especialistasFragment"
+            app:destination="@id/especialistasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.readytasking.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+        <action
+            android:id="@+id/action_perfilFragment_to_medicinaGeneralFragment"
+            app:destination="@id/medicinaGeneralFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_agendarCitaFragment"
+            app:destination="@id/agendarCitaFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_especialistasFragment"
+            app:destination="@id/especialistasFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_mapaRutaFragment"
+            app:destination="@id/mapaRutaFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_ayudaFragment"
+            app:destination="@id/ayudaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ayudaFragment"
+        android:name="com.example.readytasking.AyudaFragment"
+        android:label="fragment_ayuda"
+        tools:layout="@layout/fragment_ayuda" >
+        <action
+            android:id="@+id/action_ayudaFragment_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+        <action
+            android:id="@+id/action_ayudaFragment_to_medicinaGeneralFragment"
+            app:destination="@id/medicinaGeneralFragment" />
+        <action
+            android:id="@+id/action_ayudaFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_ayudaFragment_to_agendarCitaFragment"
+            app:destination="@id/agendarCitaFragment" />
+        <action
+            android:id="@+id/action_ayudaFragment_to_especialistasFragment"
+            app:destination="@id/especialistasFragment" />
+        <action
+            android:id="@+id/action_ayudaFragment_to_mapaRutaFragment"
+            app:destination="@id/mapaRutaFragment" />
+    </fragment>
+</navigation>
